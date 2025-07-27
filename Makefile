@@ -1,5 +1,5 @@
 TARGET = Termo
-OBJS = main.o src/common.o src/entry.o
+OBJS = main.o src/entry.o src/menu.o
 
 INCDIR = 
 CFLAGS = -O0 -Wall -g

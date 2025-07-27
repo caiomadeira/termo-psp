@@ -119,7 +119,7 @@ void init_logo_draw(Logo* logo, Font customFont) {
         //     (float)logo->x + (LOGO_SQUARE_SIZE - textSize.x) / 2,
         //     (float)logo->y + (LOGO_SQUARE_SIZE - textSize.y) / 2
         // };
-        Vector2 textPosition = { logo->x, textSize.y };
+        Vector2 textPosition = { (float)logo->x, textSize.y };
 
         DrawTextEx(customFont, 
                    TextSubtext(AUTHOR_NAME, 0, logo->letters_count), 
